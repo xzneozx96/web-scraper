@@ -71,6 +71,8 @@ const getProducts = async (req, res) => {
                 },
               },
             },
+            messaging_type: "MESSAGE_TAG",
+            tag: "ACCOUNT_UPDATE",
           };
 
           console.log("about to send msg", JSON.stringify(carouselMsg));
